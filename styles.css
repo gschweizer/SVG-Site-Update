@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+  height: 50px; /* made bg svg correct size */
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 20px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #111;
+  }
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  header nav ul li:hover {
+    transform: scale(1.1);
+  }
+  header nav ul li:hover .nav-icon path {
+    fill: #111; /*Makes svg and nav li item black simultaneously when hovered over*/
+  }
+  header h1 {
+    line-height: 1em;
+  }
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+    margin-bottom: 35px;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+#wrapper {
+  background: #ddd;
+  margin-bottom: 55px;
+}
+
+#logo {
+  width: 140px;
+  margin-top: 10px;
+}
+
+#logo:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.logo .st1 {
+  opacity: 0;
+}
+
+.logo-text {
+  font-family: 'Arvo', serif;
+  font-size: 23px;
+  margin: 10px 0 0 0;
+  padding-bottom: 30px;
+}
+
+.nav-icon {
+  width: 25px;
+}
+
+.nav-icon path {
+  fill: #39ADD1;
+}
+
+.coat {
+  width: 170px;
+}
+
+#red-coat .st0 {
+  fill: #BA8058;
+}
+#red-coat .st1 {
+  fill: #FBFEFF;
+}
+#red-coat .st2 {
+  fill: #2D3339;
+}
+#red-coat .st3 {
+  fill: #EAAA7F;
+}
+
+#fawn-coat .st0 {
+  fill: #EAAA7F;
+}
+#fawn-coat .st1 {
+  fill: #FBFEFF;
+}
+#fawn-coat .st2 {
+  fill: #2D3339;
+}
+#fawn-coat .st3 {
+  fill: #F4C6A6;
+}
+
+#sable-coat .st0 {
+  fill: #844B24;
+}
+#sable-coat .st1 {
+  fill: #FBFEFF;
+}
+#sable-coat .st2 {
+  fill: #2D3339;
+}
+#sable-coat .st3 {
+  fill: #BA8058;
+}
+
+
+@media (min-width: 420px) {
+
+.logo .st1 {
+  opacity: 1;
+}
+
+.logo-text {
+  display: none;
+}
+
+#logo {
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+}
+
+
+
